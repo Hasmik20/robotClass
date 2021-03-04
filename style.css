@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  width: 90%;
+  margin: auto;
+  background-color: rgb(252, 248, 248);
+}
+h1 {
+  text-align: center;
+  margin: 2%;
+}
+.container {
+  width: 80%;
+
+  margin: 2% auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+.container div {
+  width: 80%;
+  border-top: 1px solid gray;
+}
+.container img {
+  width: 100%;
+  display: block;
+  margin-bottom: 5px;
+}
+ul li {
+  list-style-type: circle;
+  list-style-position: inside;
+  padding: 4px;
+}
+p {
+  margin: 5px;
+}
