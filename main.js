@@ -1,8 +1,7 @@
 const div1 = document.querySelector("#phase1");
 const div2 = document.querySelector("#phase2");
 const div3 = document.querySelector("#phase3");
-const date = new Date();
-const currentYear = date.getFullYear();
+
 
 class Robot{
   constructor(img,name,phase,year){
@@ -12,6 +11,8 @@ class Robot{
     this.year = year;
   }
   age(){
+    const date = new Date();
+    const currentYear = date.getFullYear();
     return currentYear - this.year;
   }
   show(){
